@@ -1,0 +1,9 @@
+version: "2"
+authtoken: <add_your_token_here>
+tunnels:
+    samba:
+        proto: tcp
+        addr: 445
+    ssh:
+        proto: tcp
+        addr: 22
